@@ -4,34 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Página Web</title>
-    <link rel="stylesheet" href="sanitize.css" >
-    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="sanitize.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="page-setup">
-    <header class="header">
+    <header class="header_container">
         <h1 class="header-title">My Notes Application</h1>
     </header>
-
     <main class="main-content">
         <section class="note-section">
-            <div class="note-create">
+            <article class="note-create">
                 <h2 class="section-title">Create a New Note</h2>
                 <form class="note-form">
-                    <label class="label">Title:</label>
-                    <input class="input" type="text" placeholder="Enter note title" required>
-                    <label class="label">Content:</label>
-                    <input class="input" type="text" placeholder="Enter note title" required>
+                    <label class="label" for="title">Title:</label>
+                    <input class="input" id="title" type="text" placeholder="Enter note title" required>
+                    <label class="label" for="content">Content:</label>
+                    <input class="input" id="content" type="text" placeholder="Enter note content" required>
                     <button class="button" type="submit">Add Note</button>
                 </form>
-            </div>
-            <div class="resources">
+            </article>
+            <aside class="resources">
                 <h3 class="resources-title">Resources</h3>
-                <ul class="resources-list">
-                    <li><a class="resources_link" href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
-                    <li><a class="resources_link" href="https://css-tricks.com/" target="_blank">css-tricks</a></li>
-                    <li><a class="resources_link" href="https://github.com/" target="_blank">My Github</a></li>
-                </ul>
-            </div>
+                <nav>
+                    <ul class="resources-list">
+                        <li><a class="resources_link" href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
+                        <li><a class="resources_link" href="https://css-tricks.com/" target="_blank">css-tricks</a></li>
+                        <li><a class="resources_link" href="https://github.com/" target="_blank">My Github</a></li>
+                    </ul>
+                </nav>
+            </aside>
         </section>
     </main>
     <footer class="footer">

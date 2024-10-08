@@ -16,10 +16,10 @@ body {
     justify-content: space-between;
 }
 
-.header {
+.header_container {
     background-color: #4285F4;
     color: white;
-    padding: 20px;
+    padding: 1.25rem;
     text-align: center;
 }
 
@@ -32,25 +32,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 .note-section {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 1200px;
-    padding: 20px;
+    max-width: 75rem;
+    padding: 1.25rem;
 }
 
 .note-create {
     background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
     flex: 1;
-    margin-right: 20px;
-    max-width: 600px;
+    margin-right: 1.25rem;
+    max-width: 37.5rem;
 }
 
 .resource-title {
@@ -63,17 +63,16 @@ body {
 }
 
 .label {
-    margin-bottom: 5px;
+    margin-bottom: 0.3125rem;
     font-weight: bold;
-    
 }
 
 .input {
-    margin-bottom: 10px;
-    padding: 10px;
+    margin-bottom: 0.625rem;
+    padding: 0.625rem;
     border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
+    border-radius: 0.25rem;
+    font-size: 0.875rem;
 }
 
 .textarea {
@@ -83,11 +82,11 @@ body {
 .button {
     background-color: #FF5722;
     color: white;
-    padding: 10px;
+    padding: 0.625rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .button:hover {
@@ -96,11 +95,11 @@ body {
 
 .resources {
     background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    max-width: 500px;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    width: 18.75rem;
+    max-width: 31.25rem;
 }
 
 .resources-list {
@@ -109,7 +108,7 @@ body {
 }
 
 .resources-list li {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
 }
 
 .resources_link {
@@ -125,7 +124,7 @@ body {
     background-color: #4285F4;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 .footer-text {
